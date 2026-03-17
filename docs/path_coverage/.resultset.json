@@ -1,0 +1,38 @@
+{
+  "Minitest": {
+    "coverage": {
+      "/Users/radan/Workspace/personal/experiments/test_coverage_examples/path_coverage/application_fund_review.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          5,
+          5,
+          1,
+          4,
+          2,
+          null,
+          null,
+          5,
+          5,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 5, 2, 9, 5]": {
+            "[:then, 1, 6, 4, 6, 13]": 1,
+            "[:else, 2, 7, 2, 9, 5]": 4
+          },
+          "[:if, 3, 7, 2, 9, 5]": {
+            "[:then, 4, 8, 4, 8, 13]": 2,
+            "[:else, 5, 7, 2, 9, 5]": 2
+          },
+          "[:if, 6, 11, 2, 11, 46]": {
+            "[:then, 7, 11, 2, 11, 12]": 3,
+            "[:else, 8, 11, 2, 11, 46]": 2
+          }
+        }
+      }
+    },
+    "timestamp": 1773780144
+  }
+}
